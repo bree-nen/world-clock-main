@@ -1,5 +1,6 @@
 body {
-  background-color: #f9f7fe;
+  /*background-color: plum; */
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/013/531/093/small_2x/world-map-connection-futuristic-modern-website-background-or-cover-page-for-technology-and-finance-concept-and-education-future-company-vector.jpg);
   font-family: serif;
 }
 h1 {
@@ -23,7 +24,7 @@ select {
   background: white;
   padding: 30px;
   margin: 60px auto;
-  box-shadow: 10px 10px 20px rgba(100, 89, 103, 0.2);
+  box-shadow: 10px 10px 20px rgba(9, 2, 0, 0.2);
   border-radius: 12px;
 }
 .city {
@@ -49,11 +50,30 @@ select {
   line-height: 36px;
   vertical-align: middle;
 }
-
-
+a {
+  /*text-decoration: none; */
+}
+a:visited {
+  cursor: pointer;
+  color: purple;
+}
+a:hover {
+  color: darkviolet;
+  text-decoration: underline;
+}
+strong {
+  color: black;
+}
 footer {
   text-align: center;
   font-size: 12px;
   font-family: monospace;
-  color: rgba(0, 0, 0, 0.6);
+ 
+}
+.footer {
+  padding: 8px;
+  margin: 60px auto;
+  background-color: white;
+  max-width: 650px;
+  border-radius: 12px;
 }
