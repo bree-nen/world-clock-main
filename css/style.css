@@ -11,7 +11,7 @@ h1 {
 h2 {
   font-size: 30px;
   margin: 0 0 5px;
-  
+
 }
 select {
   display: block;
@@ -24,7 +24,7 @@ select {
   max-width: 600px;
   background: white;
   padding: 30px;
-  margin: 60px auto;
+  margin: 50px auto;
   box-shadow: 10px 10px 20px rgba(9, 2, 0, 0.2);
   border-radius: 12px;
 }

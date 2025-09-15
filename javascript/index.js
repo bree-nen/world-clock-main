@@ -28,6 +28,18 @@ if (parisElement) {
       "hh:mm:ss:SS [<small>]A[</small>]"
     );
 }
+let tokyoElement = document.querySelector("#tokyo");
+if (parisElement) {
+  let tokyoDateElement = tokyoElement.querySelector(".date");
+  let tokyoTimeElement = tokyoElement.querySelector(".time");
+
+  let tokyoTime = moment().tz("Asia/Tokyo");
+
+  tokyoDateElement.innerHTML = tokyoTime.format("MMMM Do YYYY");
+  tokyoTimeElement.innerHTML = tokyoTime.format(
+    "hh:mm:ss:SS [<small>]A[</small>]"
+  );
+}
  
 }
 updateTime();
