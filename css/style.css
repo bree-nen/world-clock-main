@@ -1,6 +1,59 @@
-h1 {
-    text-align:center;
+body {
+  background-color: #f9f7fe;
+  font-family: serif;
 }
-footer{
-    text-align:center;
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-size: 52px;
+}
+h2 {
+  font-size: 30px;
+  margin: 0 0 5px;
+}
+select {
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+}
+.container {
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  margin: 60px auto;
+  box-shadow: 10px 10px 20px rgba(100, 89, 103, 0.2);
+  border-radius: 12px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 26px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  padding: 20px 0;
+}
+.city:last-child {
+  border-bottom: none;
+}
+
+.date {
+  opacity: 0.7;
+}
+.time {
+  font-size: 46px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 23px;
+  line-height: 36px;
+  vertical-align: middle;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  font-family: monospace;
+  color: rgba(0, 0, 0, 0.6);
 }
